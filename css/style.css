@@ -1,0 +1,23 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Common */
+
+/* Header */
+header {
+	height: 30px;
+	background-color: green;
+}
+/* Main */
+main {
+	height: calc(100vh - 110px);
+}
+/* Footer */
+footer {
+	height: 80px;
+	background-color: red;
+}
