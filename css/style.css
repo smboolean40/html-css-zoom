@@ -37,6 +37,31 @@ body {
 	font-size: 60px;
 	color: #2db9ff;
 }
+.btn.btn-end {
+	background-color: #e02828;
+	padding: 4px 20px;
+	font-weight: bold;
+}
+.btn.btn-footer {
+	position: relative;
+	color: #aaabac;
+	margin: 0 10px;
+	padding: 2px 15px;
+}
+.btn.btn-footer i {
+	font-size: 22px;
+}
+.btn.btn-footer.btn-active {
+	color: #23d959;
+}
+.btn.btn-footer.btn-select::before {
+	content: '\f106';
+	font-weight: 900;
+	font-family: "Font Awesome 5 Free";
+	position: absolute;
+	top: 5px;
+	right: 0px;
+}
 
 /* Header */
 header {
@@ -99,5 +124,10 @@ main {
 /* Footer */
 footer {
 	height: 80px;
-	background-color: red;
+	padding: 0 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgb(34,34,34);
+	background: linear-gradient(180deg, rgba(34,34,34,0.8799894957983193) 0%, rgba(3,3,3,1) 100%);
 }
